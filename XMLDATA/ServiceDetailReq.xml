@@ -1,0 +1,10 @@
+<ns0:V2G_Message xmlns:ns0="urn:iso:15118:2:2013:MsgDef" xmlns:ns1="urn:iso:15118:2:2013:MsgHeader" xmlns:ns2="urn:iso:15118:2:2013:MsgBody">
+    <ns0:Header>
+        <ns1:SessionID>E5B6147874FDFF8D</ns1:SessionID>
+    </ns0:Header>
+    <ns0:Body>
+        <ns2:ServiceDetailReq>
+            <ns2:ServiceID>1</ns2:ServiceID>
+        </ns2:ServiceDetailReq>
+    </ns0:Body>
+</ns0:V2G_Message>

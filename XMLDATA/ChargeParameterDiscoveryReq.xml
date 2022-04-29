@@ -1,0 +1,33 @@
+<ns0:V2G_Message xmlns:ns0="urn:iso:15118:2:2013:MsgDef" xmlns:ns1="urn:iso:15118:2:2013:MsgHeader" xmlns:ns2="urn:iso:15118:2:2013:MsgBody" xmlns:ns3="urn:iso:15118:2:2013:MsgDataTypes">
+    <ns0:Header>
+        <ns1:SessionID>83BCC0D27EFE1612</ns1:SessionID>
+    </ns0:Header>
+    <ns0:Body>
+        <ns2:ChargeParameterDiscoveryReq>
+            <ns2:RequestedEnergyTransferMode>AC_three_phase_core</ns2:RequestedEnergyTransferMode>
+            <ns3:AC_EVChargeParameter>
+                <ns3:DepartureTime>7200</ns3:DepartureTime>
+                <ns3:EAmount>
+                    <ns3:Multiplier>0</ns3:Multiplier>
+                    <ns3:Unit>Wh</ns3:Unit>
+                    <ns3:Value>5000</ns3:Value>
+                </ns3:EAmount>
+                <ns3:EVMaxVoltage>
+                    <ns3:Multiplier>0</ns3:Multiplier>
+                    <ns3:Unit>V</ns3:Unit>
+                    <ns3:Value>400</ns3:Value>
+                </ns3:EVMaxVoltage>
+                <ns3:EVMaxCurrent>
+                    <ns3:Multiplier>0</ns3:Multiplier>
+                    <ns3:Unit>A</ns3:Unit>
+                    <ns3:Value>32</ns3:Value>
+                </ns3:EVMaxCurrent>
+                <ns3:EVMinCurrent>
+                    <ns3:Multiplier>0</ns3:Multiplier>
+                    <ns3:Unit>A</ns3:Unit>
+                    <ns3:Value>5</ns3:Value>
+                </ns3:EVMinCurrent>
+            </ns3:AC_EVChargeParameter>
+        </ns2:ChargeParameterDiscoveryReq>
+    </ns0:Body>
+</ns0:V2G_Message>

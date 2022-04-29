@@ -1,0 +1,8 @@
+<ns0:V2G_Message xmlns:ns0="urn:iso:15118:2:2013:MsgDef" xmlns:ns1="urn:iso:15118:2:2013:MsgHeader" xmlns:ns2="urn:iso:15118:2:2013:MsgBody">
+    <ns0:Header>
+        <ns1:SessionID>83BCC0D27EFE1612</ns1:SessionID>
+    </ns0:Header>
+    <ns0:Body>
+        <ns2:ChargingStatusReq />
+    </ns0:Body>
+</ns0:V2G_Message>

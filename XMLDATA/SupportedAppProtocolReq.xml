@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:supportedAppProtocolReq xmlns:ns6="urn:iso:15118:2:2013:MsgDef" xmlns:ns5="http://www.w3.org/2000/09/xmldsig#" xmlns:ns7="urn:iso:15118:2:2013:MsgBody" xmlns:ns2="urn:iso:15118:2:2010:AppProtocol" xmlns:ns4="urn:iso:15118:2:2013:MsgDataTypes" xmlns:ns3="urn:iso:15118:2:2013:MsgHeader">
+<AppProtocol>
+    <ProtocolNamespace>urn:iso:15118:2:2013:MsgDef</ProtocolNamespace>
+    <VersionNumberMajor>2</VersionNumberMajor>
+    <VersionNumberMinor>0</VersionNumberMinor>
+    <SchemaID>10</SchemaID>
+    <Priority>1</Priority>
+</AppProtocol>
+</ns2:supportedAppProtocolReq>

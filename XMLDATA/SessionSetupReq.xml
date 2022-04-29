@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns6:V2G_Message xmlns:ns6="urn:iso:15118:2:2013:MsgDef" xmlns:ns5="http://www.w3.org/2000/09/xmldsig#" xmlns:ns7="urn:iso:15118:2:2013:MsgBody" xmlns:ns2="urn:iso:15118:2:2010:AppProtocol" xmlns:ns4="urn:iso:15118:2:2013:MsgDataTypes" xmlns:ns3="urn:iso:15118:2:2013:MsgHeader">
+    <ns6:Header>
+        <ns3:SessionID>00</ns3:SessionID>
+    </ns6:Header>
+    <ns6:Body>
+        <ns7:SessionSetupReq>
+                <ns7:EVCCID>A07817A65779</ns7:EVCCID>
+        </ns7:SessionSetupReq>
+    </ns6:Body>
+</ns6:V2G_Message>

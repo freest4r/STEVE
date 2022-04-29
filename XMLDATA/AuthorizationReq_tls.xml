@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns6:V2G_Message xmlns:ns2="urn:iso:15118:2:2010:AppProtocol" xmlns:ns3="urn:iso:15118:2:2013:MsgHeader" xmlns:ns4="urn:iso:15118:2:2013:MsgDataTypes" xmlns:ns5="http://www.w3.org/2000/09/xmldsig#" xmlns:ns6="urn:iso:15118:2:2013:MsgDef" xmlns:ns7="urn:iso:15118:2:2013:MsgBody">
+        <ns6:Header>
+                <ns3:SessionID>30D6E83F0AC68B3C</ns3:SessionID>
+                <ns5:Signature>
+                        <ns5:SignedInfo>
+                                <ns5:CanonicalizationMethod Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+                                <ns5:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+                                <ns5:Reference URI="#ID1">
+                                <ns5:Transforms>
+                                        <ns5:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+                                </ns5:Transforms>
+                                <ns5:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                                <ns5:DigestValue>i7voNjtEOY1dM8JFD1bFJdWNYUiW+f7c7cup8zn55PA=</ns5:DigestValue>
+                                </ns5:Reference>
+                        </ns5:SignedInfo>
+                        <ns5:SignatureValue>MRayHOTYDir6lh66I9dODNKqbSWkl0pm32REA0v/BCax/zt3EY1eyn7UrJM1jAcnhsO7TJFEm76HFqDXu6r7mg==</ns5:SignatureValue>
+                </ns5:Signature>
+        </ns6:Header>
+        <ns6:Body>
+                <ns7:AuthorizationReq ns7:Id="ID1">
+                <ns7:GenChallenge>2/09LEyz8yELoDAquEvPKg==</ns7:GenChallenge>
+                </ns7:AuthorizationReq>
+        </ns6:Body>
+</ns6:V2G_Message>

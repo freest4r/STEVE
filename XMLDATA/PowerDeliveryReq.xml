@@ -1,0 +1,22 @@
+<ns0:V2G_Message xmlns:ns0="urn:iso:15118:2:2013:MsgDef" xmlns:ns1="urn:iso:15118:2:2013:MsgHeader" xmlns:ns2="urn:iso:15118:2:2013:MsgBody" xmlns:ns3="urn:iso:15118:2:2013:MsgDataTypes">
+    <ns0:Header>
+        <ns1:SessionID>83BCC0D27EFE1612</ns1:SessionID>
+    </ns0:Header>
+    <ns0:Body>
+        <ns2:PowerDeliveryReq>
+            <ns2:ChargeProgress>Start</ns2:ChargeProgress>
+            <ns2:SAScheduleTupleID>1</ns2:SAScheduleTupleID>
+            <ns2:ChargingProfile>
+                <ns3:ProfileEntry>
+                    <ns3:ChargingProfileEntryStart>0</ns3:ChargingProfileEntryStart>
+                    <ns3:ChargingProfileEntryMaxPower>
+                        <ns3:Multiplier>3</ns3:Multiplier>
+                        <ns3:Unit>W</ns3:Unit>
+                        <ns3:Value>11</ns3:Value>
+                    </ns3:ChargingProfileEntryMaxPower>
+                    <ns3:ChargingProfileEntryMaxNumberOfPhasesInUse>3</ns3:ChargingProfileEntryMaxNumberOfPhasesInUse>
+                </ns3:ProfileEntry>
+            </ns2:ChargingProfile>
+        </ns2:PowerDeliveryReq>
+    </ns0:Body>
+</ns0:V2G_Message>
