@@ -64,9 +64,9 @@ PaymentServiceSelectionReqTags = [
 #ChargeParameterDiscoveryReq
 AC = "*/*/{*}AC_EVChargeParameter/"
 AC_EVChargeParams = [
-    #"*/*/{*}RequestedEnergyTransferMode",
-    #AC+"{*}DepartureTime",          
-    #AC+"*/{*}Multiplier", 
+    "*/*/{*}RequestedEnergyTransferMode",
+    AC+"{*}DepartureTime",          
+    AC+"*/{*}Multiplier", 
     AC+"*/{*}Unit", 
     AC+"*/{*}Value", 
 ]
