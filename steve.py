@@ -211,6 +211,7 @@ class STEVE:
                 root = self.evcc.getDefaultXML("PowerDeliveryReq")
                 root = self.evcc.setSessionID(root)
                 root.find(tag).text = d
+                print(ET.tostring(root))
                 retxml = self.evcc.sendV2Gmsg(root, V2G_CI_MsgDef)
                 (ret, rcode) = self.checkFAIL(retxml)
                 if ret:
@@ -351,7 +352,7 @@ if __name__ == "__main__":
     elif m == 2:
         seccTest.TEST_DOS_Attack()
     elif m == 3:
-        fuzzdata = ["", "A"*1024, "0", "-1", "4294967297", "18446744073709551617", "<", ">", "</>", "<!--", "<!DOCTYPE", "<!ELEMENT", "<!ENTITY"]
+        fuzzdata = ["", "A"*1024, "0", "-1", "4294967296", "18446744073709551616", "<", ">", "</>", "<!--", "<!DOCTYPE", "<!ELEMENT", "<!ENTITY"]
         seccTest.TEST_SupportedAppProtocolReq(fuzzdata)
         seccTest.TEST_SessionSetupReq(fuzzdata)
         seccTest.TEST_ServiceDiscoveryReq(fuzzdata)
